@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
 
               Text('PIONIR', style: TextStyle(
-                fontSize: 18.0, color: Colors.black
+                fontFamily: 'Proxima', fontSize: 18.0, color: Colors.black
               ),),
             ],
           ),
@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 children: <Widget>[
 
                                   Text('SCAN', style: TextStyle(
-                                      fontSize: 18.0, color: Colors.black
+                                      fontFamily: 'Proxima', fontSize: 18.0, color: Colors.black
                                   ),),
 
                                   Icon(Icons.arrow_forward),
@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Icon(Icons.arrow_forward),
 
                                   Text('SAVE', style: TextStyle(
-                                      fontSize: 18.0, color: Colors.black
+                                      fontFamily: 'Proxima', fontSize: 18.0, color: Colors.black
                                   ),),
                                 ],
                               ),
@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             Padding(
                               padding: const EdgeInsets.all(40.0),
                               child: Text('Save when you \nspend at... ', style: TextStyle(
-                                fontSize: 18.0, fontWeight: FontWeight.w400, color: Colors.grey, height: 1.5,
+                                fontFamily: 'Proxima', fontSize: 18.0, fontWeight: FontWeight.w400, color: Colors.grey, height: 1.5,
                               ),
                                 textAlign: TextAlign.center,),
                             ),
@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             Padding(
                               padding: const EdgeInsets.all(40.0),
                               child: Text('Save on money\ntransfer', style: TextStyle(
-                                fontSize: 18.0, fontWeight: FontWeight.w400, color: Colors.grey, height: 1.5,
+                                fontFamily: 'Proxima', fontSize: 18.0, fontWeight: FontWeight.w400, color: Colors.grey, height: 1.5,
                               ),
                                 textAlign: TextAlign.center,),
                             ),
@@ -154,12 +154,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: <Widget>[
                                   Text('₹', style: TextStyle(
-                                      fontSize: 18.0, color: Colors.black, fontWeight: FontWeight.bold
+                                      fontFamily: 'Proxima', fontSize: 18.0, color: Colors.black, fontWeight: FontWeight.bold
                                   ),),
                                   Icon(Icons.arrow_forward),
 
                                   Text('IND', style: TextStyle(
-                                      fontSize: 18.0, color: Colors.black, fontWeight: FontWeight.bold
+                                      fontFamily: 'Proxima', fontSize: 18.0, color: Colors.black, fontWeight: FontWeight.bold
                                   ),),
                                 ],
                               ),
@@ -168,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             Padding(
                               padding: const EdgeInsets.all(40.0),
                               child: Text('Invest In India \nFrom UK', style: TextStyle(
-                                fontSize: 18.0, fontWeight: FontWeight.w400, color: Colors.grey, height: 1.5,
+                                fontFamily: 'Proxima', fontSize: 18.0, fontWeight: FontWeight.w400, color: Colors.grey, height: 1.5,
                               ),
                                 textAlign: TextAlign.center,),
                             ),
@@ -203,7 +203,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     child: Center(
                       child: Text('Google', style: TextStyle(
-                        fontSize: 15.0, fontWeight: FontWeight.w600, color: Colors.white,
+                        fontFamily: 'Proxima', fontSize: 15.0, fontWeight: FontWeight.w600, color: Colors.white,
                       ),),
                     ),
                   ),
@@ -232,7 +232,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     child: Center(
                       child: Text('Facebook', style: TextStyle(
-                        fontSize: 15.0, fontWeight: FontWeight.w600, color: Colors.white,
+                        fontFamily: 'Proxima', fontSize: 15.0, fontWeight: FontWeight.w600, color: Colors.white,
                       ),),
                     ),
                   ),
@@ -250,7 +250,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Padding(
               padding: const EdgeInsets.all(30.0),
               child: Text('Continue as Guest', style: TextStyle(
-                fontSize: 16.0, fontWeight: FontWeight.w500, color: Colors.black,
+                fontFamily: 'Proxima', fontSize: 16.0, fontWeight: FontWeight.w500, color: Colors.black,
               ),
                 textAlign: TextAlign.center,),
             ),
